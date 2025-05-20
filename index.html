@@ -30,7 +30,7 @@
         }
         .middle-section, .bottom-section, .contact-section {
             padding: 50px;
-            color: black; /* Improve readability */
+            color: black;
         }
         h1 {
             font-size: 50px;
@@ -41,12 +41,27 @@
             margin-top: 15px;
         }
         ul {
-            list-style-type}
-        </head>
+            list-style-type: none;
+            padding: 0;
+        }
+        .join-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: magenta;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        .join-button:hover {
+            background-color: turquoise;
+            transition: background-color 0.3s;
+        }
+    </style>
+</head>
 <body>
-
-    <div class="header">Copilot Aces</div>
-    <div class="header">MHS Girls Who Code</div>
+    <div class="header">MHS Girls Who Code & Copilot Aces</div>
 
     <div class="top-section">
         <h1>Copilot Aces</h1>
@@ -56,15 +71,18 @@
         <a class="join-button" href="https://forms.gle/mUZCM6xwR6HJ6wzg6" target="_blank">Join Us</a>
     </div>
 
- <h2>Club Activities</h2>
+    <div class="middle-section">
+        <h2>Club Activities</h2>
+        <!-- Add your activities content here -->
+    </div>
 
     <div class="bottom-section">
         <h2>Why Join?</h2>
-        <p>Copilot Aces is an inclusive space where we learn, play, and build together. Whether you’re new to coding or a gaming enthusiast, you’ll find your place here!</p>
-        <p>MHS Girls Who Code is an inclusive space where we learn, play, and build together. Whether you’re new to coding or already passionate about tech, you’ll find your place here!</p>
+        <p>Copilot Aces is an inclusive space where we learn, play, and build together. Whether you're new to coding or a gaming enthusiast, you'll find your place here!</p>
+        <p>MHS Girls Who Code is an inclusive space where we learn, play, and build together. Whether you're new to coding or already passionate about tech, you'll find your place here!</p>
     </div>
-
 </body>
+</html>
 
 
 
