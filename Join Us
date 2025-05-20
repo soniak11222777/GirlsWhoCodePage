@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join MHS Girls Who Code</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: white;
+        }
+        .header {
+            position: sticky;
+            top: 0;
+            background-color: white;
+            color: black;
+            padding: 15px;
+            font-size: 24px;
+            font-weight: bold;
+            border-bottom: 2px solid black;
+        }
+        .nav {
+            margin-top: 10px;
+        }
+        .nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+        }
+        .join-section {
+            padding: 50px;
+            background-color: lightgray;
+        }
+        .join-button {
+            display: inline-block;
+            padding: 15px 25px;
+            font-size: 20px;
+            color: white;
+            background-color: black;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+        .join-button:hover {
+            background-color: darkgray;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        MHS Girls Who Code
+        <div class="nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="join.html">Join Us</a>
+        </div>
+    </div>
+
+    <div class="join-section">
+        <h1>Join MHS Girls Who Code!</h1>
+        <p>Become part of a fun, inclusive community where we code, play games, and learn together.</p>
+        <a class="join-button" href="https://forms.gle/mUZCM6xwR6HJ6wzg6" target="_blank">Sign Up Now</a>
+    </div>
+
+</body>
+</html>
